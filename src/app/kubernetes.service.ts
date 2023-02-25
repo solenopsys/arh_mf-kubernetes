@@ -21,7 +21,7 @@ export class KubernetesService {
 
 
   getRequestConf(q: string,mapFunc:any): Observable<any[]> {
-    return this.hs.createStringQuery("alexstorm-hsm-kubernetes", q, 1).pipe(map(o => {
+    return this.hs.createStringQuery("richteri-hsm-kubernetes", q, 1).pipe(map(o => {
       var dec = new TextDecoder();
       let data = JSON.parse(dec.decode(o));
       console.log("FROM SERVER",data)

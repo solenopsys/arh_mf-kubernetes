@@ -104,7 +104,7 @@ module.exports = {
     }),
     iconPlug(
       'packages/fui/icons/src',
-      'dist/modules/alexstorm/kubernetes',
+      'dist/modules/richteri/kubernetes',
       'packages/modules/kubernetes/src/assets/menu.json'
     ),
     sharedMappings.getPlugin(),
