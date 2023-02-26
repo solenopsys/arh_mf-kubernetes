@@ -1,4 +1,4 @@
-import {DataPageConfig, FieldType} from "@solenopsys/lib-dgraph";
+import {DataPageConfig, FieldType} from "@solenopsys/fl-dgraph";
 import {KubernetesDataProvider} from "./kubernetes-data-provider.service";
 import {QConf} from "./kubernetes.service";
 

@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {DataListInterface, DataPageConfig} from "@solenopsys/lib-dgraph";
+import {DataListInterface, DataPageConfig} from "@solenopsys/fl-dgraph";
 import {firstValueFrom, tap} from "rxjs";
 import {map} from "rxjs/operators";
 import {KubernetesService} from "./kubernetes.service";

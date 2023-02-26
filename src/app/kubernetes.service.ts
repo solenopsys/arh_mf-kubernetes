@@ -1,6 +1,6 @@
 import {Injectable} from "@angular/core";
 import {map, Observable} from "rxjs";
-import {HStreamService} from "@solenopsys/lib-hyperstreams";
+import {HStreamService} from "@solenopsys/fl-hyperstreams";
 
 export interface QConf {
   name: string
