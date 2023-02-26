@@ -6,10 +6,10 @@
 import {NgModule} from '@angular/core';
 
 import {RouterModule} from '@angular/router';
-import {BootstrapComponent, GridState} from "@solenopsys/uimatrix-templates";
+import {BootstrapComponent, GridState} from "@solenopsys/ui-templates";
 import {createNgxs} from "@solenopsys/lib-storage";
 import {ClusterState} from "@solenopsys/lib-clusters";
-import {RowsState} from "@solenopsys/uimatrix-lists";
+import {RowsState} from "@solenopsys/ui-lists";
 import {HStreamService, HStreamsState, StreamsPool, WsPool} from "@solenopsys/lib-hyperstreams";
 import {APP_BASE_HREF} from "@angular/common";
 import {environment} from "../environments/environment";
