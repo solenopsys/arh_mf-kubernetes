@@ -16,7 +16,7 @@ import {environment} from "../environments/environment";
   providers: [
     ...PROVIDERS_CONF,
     {provide: 'single_start', useValue: false},
-    {provide: 'assets_dir', useValue: '/modules/kubernetes'}
+    {provide: 'assets_dir', useValue: '/modules/mf-kubernetes'}
   ],
 
 })

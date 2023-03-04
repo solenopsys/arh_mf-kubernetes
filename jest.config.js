@@ -8,7 +8,7 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/modules/kubernetes',
+  coverageDirectory: '../../coverage/modules/mf-kubernetes',
   transform: {
     '^.+.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/sc-fm-kubernetes-invicta",
+  "name": "@solenopsys/mf-kubernetes",
   "version": "0.9.1",
   "scripts": {
     "test": "node index.js",

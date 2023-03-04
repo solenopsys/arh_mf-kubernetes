@@ -48,7 +48,7 @@ module.exports = {
       name: 'kubernetes',
       filename: 'remoteEntry.js',
       exposes: {
-        './Module': 'packages/modules/kubernetes/src/app/entry.module.ts',
+        './Module': 'packages/modules/mf-kubernetes/src/app/entry.module.ts',
       },
       shared: share({
         '@angular/core': {
@@ -104,8 +104,8 @@ module.exports = {
     }),
     iconPlug(
       'packages/fui/icons/src',
-      'dist/modules/richteri/kubernetes',
-      'packages/modules/kubernetes/src/assets/menu.json'
+      'dist/modules/mf-richteri/kubernetes',
+      'packages/modules/mf-kubernetes/src/assets/menu.json'
     ),
     sharedMappings.getPlugin(),
   ],
