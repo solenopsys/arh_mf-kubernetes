@@ -9,7 +9,7 @@
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/kubernetes-invicta",
+        "outputPath": "dist/modules/kubernetes-invicta",
         "index": "packages/modules/kubernetes-invicta/src/index.html",
         "main": "packages/modules/kubernetes-invicta/src/main.ts",
         "polyfills": "packages/modules/kubernetes-invicta/src/polyfills.ts",
