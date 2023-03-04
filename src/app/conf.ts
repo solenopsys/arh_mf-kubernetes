@@ -1,5 +1,5 @@
 import {Routes} from "@angular/router";
-import {FuiTemplatesModule, TABLE_PAGE} from "@solenopsys/ui-templates";
+import {UITemplatesModule, TABLE_PAGE} from "@solenopsys/ui-templates";
   import {HttpClientModule} from "@angular/common/http";
 import {BrowserModule} from "@angular/platform-browser";
 import {CommonModule} from "@angular/common";
@@ -32,7 +32,7 @@ export const DECLARATION = [
 ]
 
 export const IMPORTS_CONF = [
-  FuiTemplatesModule,
+  UITemplatesModule,
   HttpClientModule,
   BrowserModule,
   CommonModule,
