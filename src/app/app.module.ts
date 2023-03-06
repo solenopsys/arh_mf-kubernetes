@@ -34,7 +34,6 @@ import {TABLES} from "./tables.config";
   providers: [...PROVIDERS_CONF,WsPool,HStreamService,StreamsPool,
     {provide: 'tables', useValue: TABLES},
     {provide: 'assets_dir', useValue: ''},
-    {provide: 'single_start', useValue: true},
     {provide: APP_BASE_HREF, useValue: '/'}
   ],
   bootstrap: [BootstrapComponent],
