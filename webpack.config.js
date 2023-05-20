@@ -104,7 +104,7 @@ module.exports = {
     }),
     iconPlug(
       'packages/fui/icons/src',
-      'dist/modules/mf-richteri/kubernetes',
+      'dist/modules/mf-kubernetes',
       'packages/modules/mf-kubernetes/src/assets/menu.json'
     ),
     sharedMappings.getPlugin(),
