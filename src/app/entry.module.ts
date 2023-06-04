@@ -1,8 +1,6 @@
 import {NgModule} from '@angular/core';
 import {RouterModule} from '@angular/router';
 import {DECLARATION, IMPORTS_CONF, PROVIDERS_CONF, routesAndRedirect} from "./conf";
-import {createNgxs} from "@solenopsys/fl-storage";
-import {environment} from "../environments/environment";
 
 
 @NgModule({
@@ -10,8 +8,7 @@ import {environment} from "../environments/environment";
   declarations: [...DECLARATION],
   imports: [
     RouterModule.forChild(routesAndRedirect),
-    ...IMPORTS_CONF,
-    ...createNgxs(!environment.production,[])
+    ...IMPORTS_CONF
   ],
   providers: [
     ...PROVIDERS_CONF,
