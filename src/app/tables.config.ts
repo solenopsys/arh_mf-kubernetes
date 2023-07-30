@@ -22,9 +22,9 @@ const nodesTransform = (obj: { items: any[], kind: string, apiVersion: string })
   })
 };
 
-export interface DataPageConfigTransform extends DataPageConfig {
+export type DataPageConfigTransform =  {
   map: (obj: { items: any[], kind: string, apiVersion: string }) => {}
-}
+} & DataPageConfig
 
 
 export const PODS: DataPageConfigTransform = {
