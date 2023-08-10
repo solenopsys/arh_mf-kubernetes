@@ -1,7 +1,7 @@
 {
   "name": "@solenopsys/mf-kubernetes",
   "version": "0.1.0",
-  "peerDependencies": {
+  "dependencies": {
     "@solenopsys/ui-templates": "^0.1.0",
     "@solenopsys/fl-storage": "^0.1.0",
     "@solenopsys/fl-clusters": "^0.1.0",
